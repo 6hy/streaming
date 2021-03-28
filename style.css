@@ -7,7 +7,7 @@ a {
 }
 h1 {
   font-size : 50pt;
-  text-align: center;
+  text-align: left;
   border-bottom:1px solid gray;
   margin:0;
   padding:20px;
@@ -28,6 +28,10 @@ h1 {
 }
 #active {
   color : red;
+}
+#link {
+  color : blue;
+  font-size : 25px;
 }
 @media(max-width:800px){
   #grid{
